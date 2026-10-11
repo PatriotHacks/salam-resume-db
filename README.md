@@ -2,7 +2,7 @@
 
 ## Info
 
-A searchable performant library of resumes for Salaam Consulting. Performs candidate matching for the top five (5) candidates with the corresponding fit in percentages each of those candidates. 
+A searchable performant library of resumes for Salaam Consulting. Performs candidate matching for the top five (5) candidates with the corresponding fit in percentages of each of those candidates.
 
 
 ## About
