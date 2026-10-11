@@ -1,3 +1,10 @@
-# Salaam Resume Database
+# Salam Resume Database
 
-A searchable performant library of resumes for Salaam Consulting. Candidate matching for the top five (5) candidates based on keywords with the likelihood in percentage of the candidate matching the description.
+## Info
+
+A searchable performant library of resumes for Salaam Consulting. Performs candidate matching for the top five (5) candidates with the corresponding fit in percentages each of those candidates. 
+
+
+## About
+
+This project was developed as part of **PatriotHacks** x **CS Club** at George Mason University's BitLab.
