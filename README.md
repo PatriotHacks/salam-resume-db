@@ -46,6 +46,18 @@ source venv/bin/activate
 # Important: run from the backend/ folder (not backend/app/)
 uvicorn app.main:app --reload --port 8000
 
+API Status Check: http://127.0.0.1:8000
+Swagger API Docs: http://127.0.0.1:8000/docs
+
+### Terminal 2 — Frontend (Port 3000)
+
+Bash
+
+cd frontend
+npm run dev
+Open http://localhost:3000 in your browser
+
+
 
 ## Project Structure
 
