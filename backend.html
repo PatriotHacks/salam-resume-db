@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Salam Consulting | Resume Database</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,sans-serif;background:#f6f9fa;color:#173942;font-size:14px}button,input,select,textarea{font:inherit}button{cursor:pointer}.btn{border-radius:8px;padding:10px 15px;font-weight:600;border:1px solid #dde8eb;background:white;color:#22505b;display:inline-flex;align-items:center;justify-content:center;gap:7px}.primary{background:#248b9c;color:white;border-color:#248b9c}.btn:hover{filter:brightness(.96)}.sidebtn{padding:12px 14px;width:100%;text-align:left;border:0;background:transparent;color:#54717a;display:flex;gap:11px;align-items:center;border-radius:9px;font-weight:550}.sidebtn.active{background:#e2f2f3;color:#177f8e;font-weight:700}.sidebtn:hover{background:#eaf5f5}.field{background:white;border:1px solid #dae6e9;border-radius:8px;padding:10px 12px;outline:none;min-width:0;width:100%;color:#244651}.field:focus{border-color:#2494a0;box-shadow:0 0 0 2px #d8f1f2}.panel{background:white;border:1px solid #e1eaed;border-radius:12px;box-shadow:0 2px 10px #123f4806}.muted{color:#718b93}.tiny{font-size:11px}.pill{display:inline-block;background:#edf5f6;color:#40747b;border-radius:5px;padding:4px 8px;font-size:11px;font-weight:550;margin:2px}.thead{background:#f8fafb;font-size:11px;color:#69838c;text-transform:uppercase;letter-spacing:.07em}td,th{padding:14px 12px;text-align:left;border-bottom:1px solid #edf1f2}tr:last-child td{border-bottom:0}tbody tr{cursor:pointer}tbody tr:hover{background:#f5fafb}.circle{height:35px;width:35px;border-radius:50%;display:grid;place-items:center;background:#e0f2f2;color:#288b94;font-weight:750;font-size:11px;flex-shrink:0}.navfoot{font-size:12px;color:#728c94}.bar{height:6px;background:#e5f0f1;border-radius:5px;overflow:hidden}.bar>div{height:100%;background:#2393a0}.modalcover{position:fixed;inset:0;background:#16343b89;z-index:20;display:flex;align-items:center;justify-content:center;padding:14px}.modal{background:white;border-radius:14px;box-shadow:0 18px 50px #102b3060;width:100%;max-width:900px;padding:24px;height:90vh;display:flex;flex-direction:column}.modalbody{flex:1;min-height:0;margin-top:16px;display:flex;flex-direction:column}.modalbody iframe{flex:1;border:1px solid #e1eaed;border-radius:8px;width:100%}.texthold{flex:1;overflow:auto;border:1px solid #e1eaed;border-radius:8px;padding:14px;white-space:pre-wrap;font-size:13px;line-height:1.5}.tagcheck{background:white;border:1px solid #dae7e9;border-radius:7px;padding:7px 11px;color:#54727b;font-size:12px}.tagcheck.selected{background:#e2f3f3;color:#187e89;border-color:#7ec2c8}.sideinner{display:flex;flex-direction:column;height:100%;padding:22px 15px}.statnum{font-size:28px;font-weight:750;letter-spacing:-1px}.mobile-nav{display:none}.notice{padding:11px 13px;border:1px solid #bee1e3;border-radius:8px;background:#eef9f9;color:#287881;font-size:12px}.warn{border-color:#f0c9c4;background:#fdf1ef;color:#a6463a}mark{background:#fff2a8;padding:0 2px;border-radius:3px}@media(max-width:800px){.sidebar{display:none}.mobile-nav{display:flex}.desktop-title{font-size:22px!important}.statgrid{grid-template-columns:repeat(2,minmax(0,1fr))!important}.gridmatch{grid-template-columns:1fr!important}.hide-mobile{display:none!important}td,th{padding:10px 8px}.contentpad{padding:15px!important}.topbar{padding:12px 16px!important}}
+</style>
+</head>
+<body>
+<div id="salam-app" class="min-h-screen flex flex-col">
+<header class="topbar flex items-center justify-between bg-white border-b border-[#e2ebed] px-7 py-4 gap-3">
+<div class="flex items-center gap-3">
+<svg width="38" height="43" viewBox="0 0 50 55" fill="none" aria-label="Salam logo"><path d="M16 5C35 3 46 17 44 34C42 45 34 51 23 53C34 43 39 31 33 20C28 10 17 11 10 11Z" fill="#50AFAE"/><path d="M15 16C16 26 29 26 29 36M14 25C14 36 21 37 17 50M6 10L9 3L12 10L19 12L12 15L9 22L6 15L0 12Z" stroke="#50AFAE" stroke-width="3" stroke-linecap="round"/></svg>
+<div><div class="font-extrabold text-[#27939d] tracking-[.14em] text-[13px]">SALAM CONSULTING</div><div class="text-[10px] tracking-[.26em] text-[#4b9ea7] font-bold">HUMAN DRIVEN</div></div>
+</div>
+<div class="flex items-center gap-3"><span class="hide-mobile text-xs text-[#759097]">Recruitment Management Platform</span><span class="text-[10px] rounded-full bg-[#eaf6f6] text-[#22888e] px-2 py-1 font-bold">LIVE BACKEND</span><div class="circle" style="background:#d4eef0">SC</div></div>
+</header>
+<div class="flex flex-1 min-h-0">
+<aside class="sidebar bg-white border-r border-[#e5edef] w-[220px] shrink-0"><div class="sideinner"><div class="uppercase tiny muted font-bold tracking-[.14em] px-3 mt-3 mb-3">Workspace</div><div class="space-y-1"><button class="sidebtn active" data-page="overview">▦ Overview</button><button class="sidebtn" data-page="library">▤ Resume Library</button><button class="sidebtn" data-page="matching">◎ Candidate Matching</button><button class="sidebtn" data-page="saved">▣ Saved Shortlists</button></div><div class="mt-9 uppercase tiny muted font-bold tracking-[.14em] px-3 mb-3">Management</div><button class="sidebtn" data-page="uploads">⇧ Upload Resumes</button><button class="sidebtn" data-page="settings">⚙ Settings</button><div class="mt-auto pt-8 px-3 navfoot">Salam Consulting<br>Recruiter Workspace<br><span class="text-[10px]">Prototype · v1.1</span></div></div></aside>
+<main class="flex-1 min-w-0"><div class="mobile-nav gap-1 overflow-x-auto border-b bg-white px-3 py-2"><button class="sidebtn active" data-page="overview" style="width:auto">Overview</button><button class="sidebtn" data-page="library" style="width:auto">Library</button><button class="sidebtn" data-page="matching" style="width:auto">Matching</button><button class="sidebtn" data-page="uploads" style="width:auto">Upload</button></div><div class="contentpad p-7 max-w-[1240px] mx-auto space-y-5" id="screen"></div></main>
+</div><div id="modalroot"></div><div id="toast" role="status" class="hidden fixed bottom-5 right-5 px-5 py-3 rounded-lg bg-[#183f48] text-white shadow-lg text-sm z-50"></div>
+</div>
+<script>
+(function(){
+const API = ''; // same server. If this page is opened from elsewhere use 'http://localhost:3000'
+const root=document.getElementById('salam-app'),screen=root.querySelector('#screen'),modals=root.querySelector('#modalroot');
+
+// ---------- state ----------
+let resumes=[];            // every resume from the backend
+let results=null;          // search results (null = no search active)
+let query='', page='overview', backendDown=false;
+let matching=[], matchTried=false, uploadHistory=[], searchCount=0, toastTimer, debounce;
+let saved=new Set();
+try{ saved=new Set(JSON.parse(localStorage.getItem('salamSaved')||'[]')); }catch(e){}
+const persistSaved=()=>{ try{ localStorage.setItem('salamSaved',JSON.stringify([...saved])); }catch(e){} };
+
+// ---------- helpers ----------
+const escapeHTML=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const nameOf=f=>f.replace(/\.(pdf|docx)$/i,'').replace(/[_-]+/g,' ').trim();
+const initialsOf=f=>nameOf(f).split(/\s+/).slice(0,2).map(w=>w[0]||'').join('').toUpperCase()||'?';
+const circle=f=>'<span class="circle">'+escapeHTML(initialsOf(f))+'</span>';
+const searchWords=()=>query.toLowerCase().split(/\s+/).filter(Boolean);
+function highlight(text,words){
+  let s=escapeHTML(text);
+  words.forEach(w=>{ const re=new RegExp(w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'gi'); s=s.replace(re,m=>'<mark>'+m+'</mark>'); });
+  return s;
+}
+const title=(a,b)=>'<div><div class="text-[25px] desktop-title font-bold tracking-tight text-[#173c46]">'+a+'</div><p class="muted mt-1 text-[13px]">'+b+'</p></div>';
+function toast(t){const n=root.querySelector('#toast');n.textContent=t;n.classList.remove('hidden');clearTimeout(toastTimer);toastTimer=setTimeout(()=>n.classList.add('hidden'),2700)}
+
+// ---------- backend calls ----------
+async function loadResumes(){
+  try{ const r=await fetch(API+'/api/resumes'); resumes=await r.json(); backendDown=false; }
+  catch(e){ backendDown=true; resumes=[]; }
+}
+async function runSearch(){
+  if(!query.trim()){ results=null; updateList(); return; }
+  try{
+    const r=await fetch(API+'/api/search?q='+encodeURIComponent(query));
+    results=await r.json(); searchCount++; backendDown=false;
+  }catch(e){ backendDown=true; results=[]; }
+  updateList();
+}
+
+// ---------- pieces of UI ----------
+function banner(){ return backendDown?'<div class="notice warn">Cannot reach the backend. Make sure the server is running (<b>npm start</b>) and open this page at http://localhost:3000</div>':''; }
+function stats(){return '<div class="statgrid grid grid-cols-4 gap-3">'+[['Total Resumes',resumes.length,'▤'],['Saved Candidates',saved.size,'☆'],['Searches Run',searchCount,'⌕'],['Uploaded This Session',uploadHistory.length,'⇧']].map(([a,b,ic])=>'<div class="panel p-4"><div class="flex justify-between muted text-xs"><span>'+a+'</span><span class="text-[#2994a1] text-lg">'+ic+'</span></div><div class="statnum mt-2">'+b+'</div></div>').join('')+'</div>'}
+function searchUI(){return '<div class="panel p-4 space-y-3"><div class="flex items-center justify-between"><div class="font-bold text-[13px]">Search Resume Contents</div><span class="tiny muted">Searches the full text of every resume</span></div><input id="searchBox" class="field" placeholder="⌕ Type words found in resumes, e.g. python aws security+..." value="'+escapeHTML(query)+'"><div class="flex items-center gap-2 flex-wrap"><span class="tiny muted mr-1">Quick searches:</span>'+['Python','Cybersecurity','AWS','SQL','Project Management'].map(s=>'<button class="tagcheck" data-quick="'+s+'">'+s+'</button>').join('')+'<button class="btn" id="clearSearch" style="padding:6px 10px;font-size:12px">Clear</button></div></div>'}
+function rowsHTML(list){
+  const words=searchWords();
+  return '<div class="overflow-x-auto"><table class="w-full border-collapse min-w-[600px]"><thead><tr class="thead"><th>Resume</th><th>'+(results?'Match Context':'Format')+'</th><th>'+(results?'Matches':'Uploaded')+'</th><th>Action</th></tr></thead><tbody>'+list.map(c=>'<tr data-candidate="'+escapeHTML(c.id)+'"><td><div class="flex items-center gap-3">'+circle(c.filename)+'<div><div class="font-bold text-[#294b55]">'+escapeHTML(nameOf(c.filename))+'</div><div class="tiny muted mt-1">'+escapeHTML(c.filename)+'</div></div></div></td><td class="text-xs text-[#607c84]" style="max-width:380px">'+(results?'…'+highlight(c.snippet||'',words)+'…':escapeHTML((c.ext||'').replace('.','').toUpperCase()))+'</td><td class="text-[#46616a]">'+(results?c.score+' hit'+(c.score===1?'':'s'):(c.uploadedAt?new Date(c.uploadedAt).toLocaleDateString():''))+'</td><td><button class="text-[#248e9a] font-semibold text-xs hover:underline" data-open="'+escapeHTML(c.id)+'">Open Resume →</button></td></tr>').join('')+'</tbody></table>'+(list.length?'':'<div class="text-center p-12 muted">'+(results?'No resumes contain those words.':'No resumes yet. Go to Upload Resumes to add some.')+'</div>')+'</div>';
+}
+function listInner(isOverview){
+  let data=page==='saved'?resumes.filter(r=>saved.has(r.id)):(results||resumes);
+  const heading=page==='saved'?saved.size+' Saved Candidates':results?results.length+' resume'+(results.length===1?'':'s')+' match "'+escapeHTML(query)+'"':(isOverview?'Recent Resumes':'Resume Library');
+  return '<div class="p-5 border-b border-[#e7eff1] flex justify-between items-center gap-3"><div class="font-bold text-base">'+heading+'</div>'+(isOverview?'<button class="text-[#258a97] font-semibold text-xs" data-go="library">View All →</button>':'')+'</div>'+rowsHTML(isOverview&&!results?data.slice(-5).reverse():data);
+}
+const listPanel=isO=>'<div class="panel overflow-hidden" id="listPanel">'+listInner(isO)+'</div>';
+function updateList(){ const p=screen.querySelector('#listPanel'); if(p) p.innerHTML=listInner(page==='overview'); const s=screen.querySelector('.statgrid'); if(s&&page==='overview') s.outerHTML=stats(); }
+
+// ---------- pages ----------
+function overview(){return banner()+'<div class="flex flex-wrap items-center justify-between gap-3">'+title('Welcome to Salam Recruiting','Manage resumes and discover qualified candidates in one place.')+'<button class="btn primary" data-go="uploads">＋ Upload Resumes</button></div>'+stats()+'<div class="rounded-xl bg-[#258b9b] text-white p-6 flex flex-wrap justify-between items-center gap-4"><div><div class="text-xl font-bold">Find the right talent, faster.</div><p class="text-[13px] mt-2 text-[#e1f5f6] max-w-[480px]">Search the full text of every resume, or paste a job description to rank candidates.</p></div><button class="btn" data-go="matching">◎ Find Matching Candidates →</button></div>'+searchUI()+listPanel(true)}
+function library(){return banner()+'<div class="flex flex-wrap gap-3 items-center justify-between">'+title('Resume Library','Browse and search the complete resume database.')+'<button class="btn primary" data-go="uploads">＋ Add New Resume</button></div>'+searchUI()+listPanel(false)}
+function savedPage(){return title('Saved Shortlists','Resumes bookmarked for future review.')+listPanel(false)}
+function matchPage(){return title('Candidate Matching','Paste a job description and rank resumes by how many of its keywords they contain.')+'<div class="gridmatch grid grid-cols-[minmax(0,1.15fr)_minmax(260px,.85fr)] gap-4"><div class="panel p-5"><div class="font-bold text-base mb-1">Job Requirements</div><p class="muted text-xs mb-5">Enter a role and job description.</p><label class="text-xs font-bold">Job Title</label><input id="jobTitle" class="field mt-2 mb-4" placeholder="e.g. Cybersecurity Analyst"><label class="text-xs font-bold">Job Description</label><textarea id="jobDesc" class="field mt-2 mb-4" rows="8" placeholder="Paste the job description here..."></textarea><div class="flex gap-2 flex-wrap"><button id="runMatch" class="btn primary">◎ Find Top Candidates</button><button id="sampleJD" class="btn">Use Example Job</button></div><div class="notice mt-4">Scores are keyword overlap (percent of job keywords found in the resume), not AI scoring.</div></div><div class="panel p-5"><div class="font-bold text-base">How It Works</div>'+[['01','Extract keywords','Pulls meaningful words from the job text'],['02','Search every resume','Backend checks each resume for those words'],['03','Rank','More keywords found = higher score'],['04','Review','Open any resume from the results']].map(([i,a,b])=>'<div class="flex gap-3 mt-5"><div class="circle">'+i+'</div><div><div class="font-semibold">'+a+'</div><div class="muted text-xs mt-1">'+b+'</div></div></div>').join('')+'</div></div><div id="matchResults"></div>'}
+function uploads(){return banner()+title('Upload Resumes','Add candidate resumes to the database. Text is extracted so they become searchable.')+'<div class="panel p-6"><div class="text-lg font-bold">Import Candidate Resumes</div><div id="dropzone" class="border-2 border-dashed border-[#aad1d6] rounded-xl text-center py-14 px-4 bg-[#f9fdfd] mt-6"><div class="text-[#24909b] text-4xl mb-2">⇧</div><div class="font-bold">Drag and drop your resumes here</div><div class="muted text-xs my-3">PDF or DOCX · Multiple files allowed</div><button class="btn primary" id="chooseFiles">Browse Files</button><input id="fileInput" type="file" accept=".pdf,.docx" multiple hidden></div><div id="uploadStatus" class="mt-5"></div></div>'}
+function settings(){return title('Workspace Settings','Configuration for the recruiter portal.')+'<div class="panel p-6 space-y-4"><div class="font-bold text-lg">Status</div><div class="notice '+(backendDown?'warn':'')+'">Backend: '+(backendDown?'not reachable':'connected')+' · '+resumes.length+' resumes stored</div><div class="text-sm muted">Login, roles, and audit logging are not built yet.</div></div>'}
+
+// ---------- navigation / render ----------
+function navigate(p){page=p;render()}
+function render(){
+  root.querySelectorAll('[data-page]').forEach(b=>b.classList.toggle('active',b.dataset.page===page));
+  screen.innerHTML=({overview,library,matching:matchPage,uploads,saved:savedPage,settings})[page]();
+  if(page==='matching'&&matchTried) showMatches();
+  bindPage();
+}
+function bindPage(){
+  const q=screen.querySelector('#searchBox');
+  if(q) q.addEventListener('input',e=>{ query=e.target.value; clearTimeout(debounce); debounce=setTimeout(runSearch,250); });
+  screen.querySelector('#clearSearch')?.addEventListener('click',()=>{query='';results=null;render()});
+  screen.querySelector('#sampleJD')?.addEventListener('click',()=>{screen.querySelector('#jobTitle').value='Cybersecurity Analyst';screen.querySelector('#jobDesc').value='Seeking a Cybersecurity Analyst with experience in Python, SIEM, AWS, Linux, network security, and incident response. CompTIA Security+ is preferred.'});
+  screen.querySelector('#runMatch')?.addEventListener('click',runMatching);
+  screen.querySelector('#chooseFiles')?.addEventListener('click',()=>screen.querySelector('#fileInput').click());
+  screen.querySelector('#fileInput')?.addEventListener('change',e=>uploadFiles(e.target.files));
+  const d=screen.querySelector('#dropzone');
+  if(d){d.addEventListener('dragover',e=>{e.preventDefault();d.style.background='#e8f6f6'});d.addEventListener('dragleave',()=>d.style.background='');d.addEventListener('drop',e=>{e.preventDefault();d.style.background='';uploadFiles(e.dataTransfer.files)})}
+}
+
+// ---------- upload ----------
+async function uploadFiles(files){
+  const arr=Array.from(files||[]), valid=arr.filter(f=>/\.(pdf|docx)$/i.test(f.name));
+  if(valid.length!==arr.length) toast('Only PDF and DOCX files are supported');
+  if(!valid.length) return;
+  const status=screen.querySelector('#uploadStatus'); status.innerHTML='<div class="muted">Uploading '+valid.length+' file(s)…</div>';
+  const fd=new FormData(); valid.forEach(f=>fd.append('files',f));
+  try{
+    const r=await fetch(API+'/api/resumes',{method:'POST',body:fd}); const d=await r.json();
+    status.innerHTML='<div class="font-bold mb-3">Results</div>'+d.added.map(a=>'<div class="border-b border-[#e7ebee] py-3 flex justify-between gap-3"><span class="truncate">📄 '+escapeHTML(a.filename)+'</span><span class="tiny shrink-0 '+(a.error?'text-red-600':'muted')+'">'+(a.error?escapeHTML(a.error):'Added & searchable')+'</span></div>').join('');
+    uploadHistory.push(...d.added.filter(a=>!a.error)); await loadResumes(); toast('Upload complete');
+  }catch(e){ backendDown=true; status.innerHTML='<div class="notice warn">Upload failed. Is the server running?</div>'; }
+}
+
+// ---------- matching ----------
+async function runMatching(){
+  const text=(screen.querySelector('#jobTitle').value+' '+screen.querySelector('#jobDesc').value).toLowerCase();
+  if(text.trim().length<18){toast('Please provide a role and job description');return}
+  const stop=new Set(['and','with','the','for','are','our','you','years','year','experience','seeking','candidate','minimum','preferred','role','skills','required','have','work','job','strong','knowledge','will','who','that','this','from','able','must','team']);
+  const terms=[...new Set((text.match(/[a-z][a-z0-9+#.-]*/g)||[]).map(w=>w.replace(/[.\-]+$/,'')).filter(w=>w.length>2&&!stop.has(w)))].slice(0,25);
+  try{
+    const r=await fetch(API+'/api/search?mode=any&q='+encodeURIComponent(terms.join(' ')));
+    matching=(await r.json()).slice(0,6); matchTried=true; backendDown=false;
+  }catch(e){ backendDown=true; matching=[]; matchTried=true; }
+  showMatches();
+}
+function showMatches(){
+  const m=screen.querySelector('#matchResults'); if(!m) return;
+  m.innerHTML='<div class="mt-6 text-lg font-bold">Top Matches</div><div class="muted text-xs mt-1">Ranked by share of job keywords found in each resume</div>'+(matching.length?'<div class="grid md:grid-cols-2 gap-3 mt-3">'+matching.map(c=>{const pct=Math.round(c.matched/c.total*100);return '<div class="panel p-5"><div class="flex justify-between gap-3"><div class="flex gap-3">'+circle(c.filename)+'<div><div class="font-bold">'+escapeHTML(nameOf(c.filename))+'</div><div class="muted text-xs">'+c.matched+' of '+c.total+' keywords</div></div></div><div class="text-xl font-bold text-[#178695]">'+pct+'%</div></div><div class="bar mt-4 mb-4"><div style="width:'+pct+'%"></div></div><div class="text-xs muted">…'+escapeHTML(c.snippet)+'…</div><button class="text-xs text-[#248c9a] font-bold mt-4" data-open="'+escapeHTML(c.id)+'">Open Resume →</button></div>'}).join('')+'</div>':'<div class="panel p-8 text-center muted mt-3">No resumes matched. Upload some resumes first.</div>');
+}
+
+// ---------- resume popup ----------
+async function openResume(id){
+  const c=resumes.find(x=>x.id===id)||matching.find(x=>x.id===id)||(results||[]).find(x=>x.id===id); if(!c) return;
+  const isSaved=saved.has(id);
+  modals.innerHTML='<div class="modalcover"><div class="modal"><div class="flex justify-between gap-3 items-center"><div class="flex gap-3 items-center">'+circle(c.filename)+'<div><div class="font-bold text-lg">'+escapeHTML(nameOf(c.filename))+'</div><div class="muted text-xs">'+escapeHTML(c.filename)+'</div></div></div><div class="flex gap-2"><button class="btn primary" id="saveCandidate">'+(isSaved?'★ Remove from Shortlist':'☆ Save to Shortlist')+'</button><button class="btn" data-close>✕ Close</button></div></div><div class="modalbody" id="modalBody"><div class="muted">Loading…</div></div></div></div>';
+  modals.querySelector('#saveCandidate').addEventListener('click',()=>{ if(saved.has(id))saved.delete(id); else saved.add(id); persistSaved(); toast(saved.has(id)?'Saved to shortlist':'Removed from shortlist'); openResume(id); if(page==='saved'||page==='overview'||page==='library') updateList(); });
+  const body=modals.querySelector('#modalBody');
+  if(c.ext==='.pdf'){ body.innerHTML='<iframe src="'+API+'/api/resumes/'+encodeURIComponent(id)+'/file"></iframe>'; }
+  else{
+    try{ const d=await (await fetch(API+'/api/resumes/'+encodeURIComponent(id)+'/text')).json(); body.innerHTML='<div class="texthold">'+highlight(d.text,searchWords())+'</div>'; }
+    catch(e){ body.innerHTML='<div class="notice warn">Could not load resume text.</div>'; }
+  }
+}
+
+// ---------- global clicks ----------
+root.addEventListener('click',e=>{
+  const b=e.target.closest('button');
+  if(b?.dataset.page){navigate(b.dataset.page);return}
+  if(b?.dataset.go){navigate(b.dataset.go);return}
+  if(b?.dataset.quick){query=b.dataset.quick;const q=screen.querySelector('#searchBox');if(q)q.value=query;runSearch();return}
+  if(b?.dataset.open){openResume(b.dataset.open);return}
+  const row=e.target.closest('[data-candidate]'); if(row){openResume(row.dataset.candidate);return}
+  if(e.target.closest('[data-close]')||e.target.classList.contains('modalcover')) modals.innerHTML='';
+});
+
+(async function init(){ await loadResumes(); render(); })();
+})();
+</script>
+</body>
+</html>
